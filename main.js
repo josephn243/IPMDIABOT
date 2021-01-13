@@ -111,4 +111,3 @@ client.on('message', message =>{
 client.login(process.env.token);
 
 
- //Nzk2MTk1NTA0MDM1MzMyMTY5.X_UY2A.lXSgNj-m6jE6owFoKeZISMdwSdM
