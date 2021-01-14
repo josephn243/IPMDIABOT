@@ -4,7 +4,6 @@ module.exports = {
     async execute(message, args, Discord, client) {
         let sendchannel = client.channels.cache.find(channel => channel.name.toLowerCase() === 'raid-afk-check')
         const user = message.member
-        const bot = new Discord.Client({disableEveryone: False});
 
         // ability emojis
         const whitebag = message.guild.emojis.cache.find(emoji => emoji.name ==="whitebag") 
