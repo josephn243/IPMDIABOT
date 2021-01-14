@@ -102,6 +102,8 @@ client.on('message', message =>{
         client.commands.get('help').execute(message,args, Discord, client);
     } else if (moderation === 'purge'){
         client.commands.get('purge').execute(message,args);  
+    } else if (moderation === 'nnn'){
+        client.commands.get('nnn').execute(message,args, Discord, client);  
     } 
 
 });
