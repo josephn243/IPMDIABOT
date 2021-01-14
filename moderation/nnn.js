@@ -47,16 +47,10 @@ module.exports = {
             .setColor('#460A07')
             .setTitle( `**ItsDuckingLit presents:** a 2021 Celebration`)
             .setThumbnail('https://i.imgur.com/byfSV5w.png')
-            .setDescription('React appropriately below')
+            .setDescription('<@&701944956100542464> <@&766821698229239839> <@&722901824000098385>')
             .addFields(
-                {name: `<@&701944956100542464> <@&766821698229239839> <@&722901824000098385>  `, value: `The contest will be starting in 1 hour (7:30 Central, 5:30 PST, 8:30 EST) `},
-                {name: 'Rules:', value: `${itsduckinglit} Fresh lvl 20 characters only 
-                \n ${itsduckinglit} T0 gear only \n ${itsduckinglit} Gear earned in dungeon can be worn 
-                \n ${itsduckinglit} Last 3 survivors earn 1/2/3/ points respectively 
-                \n ${itsduckinglit} If 4, or more, players survive, everyone earns 1 point 
-                \n ${itsduckinglit} UT/ST earns 1 point (screenshot proof) 
-                \n ${itsduckinglit} Leaching = bad 
-                \n ${itsduckinglit} **Dragging = good**`},
+                {name: `The contest will be starting in 1 hour (7:30 Central, 5:30 PST, 8:30 EST) `, value: ' \u200B'},
+                {name: 'Rules:', value: `${itsduckinglit} Fresh lvl 20 characters only \n ${itsduckinglit} T0 gear only \n ${itsduckinglit} Gear earned in dungeon can be worn  \n ${itsduckinglit} Last 3 survivors earn 1/2/3/ points respectively \n ${itsduckinglit} If 4, or more, players survive, everyone earns 1 point \n ${itsduckinglit} UT/ST earns 1 point (screenshot proof) \n ${itsduckinglit} Leaching = bad \n ${itsduckinglit} Dragging = good`},
                 {name: 'Rewards', value: `1st: 3 skins, Deca \n 2nd: Pixie, Deca, Skin \n 3rd: Pixie, Deca, Skin \n 4th/5th: Etherite Dagger`}
             )
             .setTimestamp()
