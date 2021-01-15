@@ -56,10 +56,6 @@ module.exports = {
             .setTimestamp()
             .setFooter('© IPMDIABOD');
     
-                  
-             
-                
-       
         let messageEmbed = await sendchannel.send(embed);
         messageEmbed.react(itsduckinglit);
         messageEmbed.react(whitebag);

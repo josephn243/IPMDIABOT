@@ -43,6 +43,8 @@ module.exports = {
         const cult = message.guild.emojis.cache.find(emoji => emoji.name ==="cult")
         const osanc = message.guild.emojis.cache.find(emoji => emoji.name ==="osanc")
 
+        sendchannel.send('@here')
+
         let embed = new Discord.MessageEmbed()
             .setColor('#A0470D')
             .setTitle( `${user.nickname} has started an AFK check for the Cultist Hideout`)
