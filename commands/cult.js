@@ -60,7 +60,7 @@ module.exports = {
     
                   
              
-        sendchannel.send('@here', {embed});  
+        let messageEmbed = sendchannel.send('@here', {embed});  
         messageEmbed.react(cult);
         messageEmbed.react(slow);
         messageEmbed.react(daze);
