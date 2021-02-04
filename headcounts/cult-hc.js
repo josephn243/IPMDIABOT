@@ -53,7 +53,7 @@ module.exports = {
     
                   
              
-        let messageEmbed = await sendchannel.send(embed);
+        let messageEmbed = await sendchannel.send('@here', {embed: embed});
         messageEmbed.react(cult);
         messageEmbed.react(knight);
         messageEmbed.react(slow);
