@@ -43,11 +43,6 @@ module.exports = {
         const cult = message.guild.emojis.cache.find(emoji => emoji.name ==="cult")
         const osanc = message.guild.emojis.cache.find(emoji => emoji.name ==="osanc")
 
-<<<<<<< HEAD
-        
-
-=======
->>>>>>> 025b623494273dfcd609d9be6c4f2f38a77569a2
         let embed = new Discord.MessageEmbed()
             "@here"
             .setColor('#A0470D')
