@@ -44,6 +44,7 @@ module.exports = {
         const osanc = message.guild.emojis.cache.find(emoji => emoji.name ==="osanc")
 
         let embed = new Discord.MessageEmbed()
+            "@here"
             .setColor('#A0470D')
             .setTitle( `${user.nickname} has started an AFK check for the Cultist Hideout`)
             .setThumbnail('https://i.imgur.com/nPkovWR.png')
@@ -59,7 +60,7 @@ module.exports = {
     
                   
              
-        let messageEmbed = await sendchannel.send('@here", embed);
+        let messageEmbed = await sendchannel.send(embed);
         messageEmbed.react(cult);
         messageEmbed.react(slow);
         messageEmbed.react(daze);
