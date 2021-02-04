@@ -46,7 +46,7 @@ module.exports = {
         
 
         let embed = new Discord.MessageEmbed()
-            "@here"
+            
             .setColor('#A0470D')
             .setTitle( `${user.nickname} has started an AFK check for the Cultist Hideout`)
             .setThumbnail('https://i.imgur.com/nPkovWR.png')
