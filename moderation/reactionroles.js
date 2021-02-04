@@ -11,13 +11,13 @@ module.exports = {
         const other_games = message.guild.roles.cache.find(role => role.name === "other games");
         const weeb = message.guild.roles.cache.find(role => role.name === "weeb");
  
-        const minecraft = message.guild.emojis.cache.find(emoji => emoji.name ==="minecraft");
-        const brawhalla = message.guild.emojis.cache.find(emoji => emoji.name ==="brawhalla");
-        const league = message.guild.emojis.cache.find(emoji => emoji.name ==="leagueoflegends");
-        const amongus = message.guild.emojis.cache.find(emoji => emoji.name ==="amongus");
-        const apexlegends = message.guild.emojis.cache.find(emoji => emoji.name ==="apexlegends");
-        const weeb = message.guild.emojis.cache.find(emoji => emoji.name ==="weeb");
-        const other_games = '⚪';
+        const minecrafte = message.guild.emojis.cache.find(emoji => emoji.name ==="minecraft");
+        const brawhallae = message.guild.emojis.cache.find(emoji => emoji.name ==="brawhalla");
+        const leaguee = message.guild.emojis.cache.find(emoji => emoji.name ==="leagueoflegends");
+        const amonguse = message.guild.emojis.cache.find(emoji => emoji.name ==="amongus");
+        const apexlegendse = message.guild.emojis.cache.find(emoji => emoji.name ==="apexlegends");
+        const weebe = message.guild.emojis.cache.find(emoji => emoji.name ==="weeb");
+        const other_gamese = '⚪';
 
 
 
