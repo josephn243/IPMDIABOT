@@ -43,7 +43,7 @@ module.exports = {
         const cult = message.guild.emojis.cache.find(emoji => emoji.name ==="cult")
         const osanc = message.guild.emojis.cache.find(emoji => emoji.name ==="osanc")
 
-        sendchannel.send('@here')
+        
 
         let embed = new Discord.MessageEmbed()
             .setColor('#A0470D')
@@ -61,7 +61,7 @@ module.exports = {
     
                   
              
-        let messageEmbed = await sendchannel.send(embed);
+        let messageEmbed = await sendchannel.send('@here', embed);  
         messageEmbed.react(cult);
         messageEmbed.react(slow);
         messageEmbed.react(daze);
