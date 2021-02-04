@@ -3,6 +3,7 @@ module.exports = {
     description: "Sets up a reaction role message!",
     async execute(message, args, Discord, client) {
         const channel = '790788148657258526';
+        
         const minecraft = message.guild.roles.cache.find(role => role.name === "minecraft");
         const brawhalla = message.guild.roles.cache.find(role => role.name === "brawhalla");
         const league = message.guild.roles.cache.find(role => role.name === "league");
@@ -11,7 +12,7 @@ module.exports = {
         const other_games = message.guild.roles.cache.find(role => role.name === "other games");
         const weeb = message.guild.roles.cache.find(role => role.name === "weeb");
  
-        const minecraft = message.guild.emojis.cache.find(emoji => emoji.name ==="minecraft");
+        
         const brawhalla = message.guild.emojis.cache.find(emoji => emoji.name ==="brawhalla");
         const league = message.guild.emojis.cache.find(emoji => emoji.name ==="leagueoflegends");
         const amongus = message.guild.emojis.cache.find(emoji => emoji.name ==="amongus");
